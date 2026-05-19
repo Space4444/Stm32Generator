@@ -11,4 +11,6 @@ Also it memorizes it's configuration and loads it on restart.
 
 This version is built on the board stm32f103c8t6. It has no display and output signals are configured by 6 buttons, rotary encoder and 3 LEDs.
 
+<img width="1280" height="753" alt="image" src="https://github.com/user-attachments/assets/e4d9183a-3f88-47c0-95f7-8313c68afeb9" />
+
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ab546179-64d7-48fe-b77c-7bf93c429e72" />
