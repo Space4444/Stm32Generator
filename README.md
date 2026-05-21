@@ -17,7 +17,7 @@ Output signals are amplified by low-to-high voltage level shifter.
 
 ## Usage
 
-Output signals are configured via rotary encoder and 6 buttons (see sircuit diagram).
+Output signals are configured using a rotary encoder and 6 buttons (see sircuit diagram).
 
 By pressing on buttons B1, B2 and B3 you can turn on and off channels.
 LEDs D1, D2 and D3 incicate whether the channels are on or off. (Button B1 and LED L1 correspond to channel 1, etc)
