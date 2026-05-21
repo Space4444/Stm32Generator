@@ -1,5 +1,7 @@
 # Pulse gererator
 
+## Introduction
+
 This is 3-channel pulse generator made on stm32 with STM32CubeMX and Keil µVision. It generates square pulses with configurable frequency,
 duty cycle and phase shift between channels. Frequency ranges from less than 1 Hz up to 36 MHz.
 
