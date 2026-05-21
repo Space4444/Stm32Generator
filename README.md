@@ -32,7 +32,7 @@ If you change the period of the 1-st channel, then periods of other channels wil
 or are divisible by the period of the 1-st channel.
 But if you don't need synchronization, you can just change frequency of 2-nd or 3-rd channel and it will not affect other channels.
 
-<img width="640" height="376" alt="image" src="https://github.com/user-attachments/assets/e4d9183a-3f88-47c0-95f7-8313c68afeb9" />
+<img width="640" height="376" alt="image" src="https://github.com/user-attachments/assets/fcf75946-8241-4893-ab0c-d1cbfcb70374" />
 
 <img width="282" height="376" alt="image" src="https://github.com/user-attachments/assets/ab546179-64d7-48fe-b77c-7bf93c429e72" />
 
