@@ -25,7 +25,7 @@ Then I figured out another approach:
 1. Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html). The installer should also install drivers for ST-LINK.
 2. Connect ST-LINK with the STM32 board to the computer via USB.
 3. Open the program and click "Open file". Then find and select file "Stm32Generator.hex" (You have to download it from the "/MDK-ARM/Stm32Generator" in this repo)
-4. Click "Download". Then connection with ST-LINK should establish and the compiled file should load to the board, thats it.
+4. Click "Download". Then connection with ST-LINK should establish and the compiled file should load to the board. Thats it.
 
 ### Modificaion and recompiling code:
 
