@@ -29,7 +29,7 @@ Then I figured out another approach:
 ### Modificaion and recompiling code:
 
 1. Download and install [Keil](https://www.keil.com/demo/eval/arm.htm).
-2. Download this repo go to the "MDK-ARM" folder and open "Stm32Generator.uvprojx" with Keil.
+2. Download this repo, go to the "MDK-ARM" folder and open "Stm32Generator.uvprojx" with Keil.
 3. In the Keil press Alt+F7 and "Options for target" window should pop up.
 4. There in the "Target" tab find option "ARM Compiler" and choose default compiler.
 5. Press F7 to build the project, then the file "Stm32Generator.hex" should update.
