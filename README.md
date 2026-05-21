@@ -3,7 +3,7 @@
 ## Introduction
 
 This is 3-channel pulse generator that generates square signals. It is made on stm32 with STM32CubeMX and Keil µVision.
-This version is built on the board stm32f103c8t6 and ST-LINK programmer was used to install the code.
+This version is built on the board stm32f103c8t6 and ST-LINK V2 programmer was used to install the code.
 Output signals are amplified by low-to-high voltage level shifter.
 
 ## [Demo video](https://youtu.be/u5IdKObk2uI)
