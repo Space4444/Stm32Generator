@@ -6,6 +6,8 @@ This is 3-channel pulse generator that generates square signals. It is made on s
 This version is built on the board stm32f103c8t6 and ST-LINK programmer was used to install the code.
 Output signals are amplified by low-to-high voltage level shifter.
 
+## [Demo video](https://youtu.be/u5IdKObk2uI)
+
 ## Features
   - Frequency range from less than 1 Hz up to 10 MHz
   - Configurable frequency, duty cycle and phase shift between channels
