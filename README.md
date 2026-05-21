@@ -23,8 +23,9 @@ Then I figured out another approach:
 ### Loading existing project to the board:
 
 1. Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html). The installer should also install drivers for ST-LINK.
-2. Open the program and click "Open file". Then find and select file "Stm32Generator.hex" (You have to download it from the "/MDK-ARM/Stm32Generator" in this repo)
-3. Click "Download". Then connection with ST-LINK should establish and the compiled file should load to the board, thats it.
+2. Connect ST-LINK with the STM32 board to the computer via USB.
+3. Open the program and click "Open file". Then find and select file "Stm32Generator.hex" (You have to download it from the "/MDK-ARM/Stm32Generator" in this repo)
+4. Click "Download". Then connection with ST-LINK should establish and the compiled file should load to the board, thats it.
 
 ### Modificaion and recompiling code:
 
@@ -33,7 +34,7 @@ Then I figured out another approach:
 3. In the Keil press Alt+F7 and "Options for target" window should pop up.
 4. There in the "Target" tab find option "ARM Compiler" and choose default compiler.
 5. Press F7 to build the project, then the file "Stm32Generator.hex" should update.
-6. Repeat the process shoun above to load this file in the board.
+6. Repeat the process shoun above to load this file into the board.
 
 ## Usage
 
