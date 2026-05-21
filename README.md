@@ -1,4 +1,4 @@
-# Pulse gererator
+# Pulse generator
 
 ## Introduction
 
