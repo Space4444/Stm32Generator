@@ -20,13 +20,13 @@ At the time when I built this project, I used Keil µVision to compile and to lo
 But now whean I tried to replicate the process, I for some reason get error about device mismatch.
 Then I figured out another approach:
 
-### If you want to just load existing compiled project
+### Loading existing project to the board:
 
 1. Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html). The installer should also install drivers for ST-LINK.
 2. Open the program and click "Open file". Then find and select file "Stm32Generator.hex" (You have to download it from the "/MDK-ARM/Stm32Generator" in this repo)
 3. Click "Download". Then connection with ST-LINK should establish and the compiled file should load to the board, thats it.
 
-### If you want to modify code
+### Modificaion and recompiling code:
 
 1. Download and install [Keil](https://www.keil.com/demo/eval/arm.htm).
 2. Download this repo go to the "MDK-ARM" folder and open "Stm32Generator.uvprojx" with Keil.
