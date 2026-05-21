@@ -2,10 +2,16 @@
 
 ## Introduction
 
-This is 3-channel pulse generator made on stm32 with STM32CubeMX and Keil µVision. It generates square pulses with configurable frequency,
-duty cycle and phase shift between channels. Frequency ranges from less than 1 Hz up to 36 MHz.
+This is 3-channel pulse generator that generates square signals. It is made on stm32 with STM32CubeMX and Keil µVision.
 
-It provides automatic synchronization between channels.
+## Features
+  - Frequency range from less than 1 Hz up to 36 MHz
+  - Configurable frequency, duty cycle and phase shift between channels
+  - Mode with automatic synchronization between channels
+  - Saving configuration and automatic loading it on restart
+
+## Overview
+
 If you change the period of the 1-st channel, then periods of other channels will automatically change to the nearest values that divide
 or are divisible by the period of the 1-st channel.
 But if you don't need synchronization, you can just change frequency of 2-nd or 3-rd channel and it will not affect other channels.
