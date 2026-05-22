@@ -20,7 +20,7 @@ At the time when I built this project, I used Keil µVision to compile and to lo
 But now when I tried to replicate the process, I for some reason got an error about device mismatch.
 Then I figured out another approach with STM32CubeProgrammer.
 
-### Loading existing project to the board:
+### Loading existing project into the board:
 
 1. Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html). The installer should also install drivers for ST-LINK.
 2. Connect ST-LINK with the STM32 board to the computer via USB.
