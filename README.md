@@ -36,7 +36,7 @@ Then I figured out another approach with STM32CubeProgrammer.
 5. Press F7 to build the project, then the file "Stm32Generator.hex" should update.
 6. Repeat the process shown above to load this file into the board.
 
-Notice: this version of code works only on boards stm32f103c8. If your board is different, then you have to reconfigure pins and clocks.
+Note: this version of code works only on boards stm32f103c8. If your board is different, then you have to reconfigure pins and clocks.
 You can do so by rewriting the code manually or by generating new one in the STM32CubeMX.
 
 ## Usage
