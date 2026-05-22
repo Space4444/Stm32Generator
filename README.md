@@ -16,7 +16,7 @@ Output signals are amplified by low-to-high voltage level shifter.
 
 ## Installation
 
-At the time when I built this project, I used Keil µVision to compile and to load the program in the board.
+At the time when I built this project, I used Keil µVision to compile and to load the program into the board.
 But now whean I tried to replicate the process, I for some reason got an error about device mismatch.
 Then I figured out another approach with STM32CubeProgrammer.
 
